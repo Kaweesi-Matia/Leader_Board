@@ -1,4 +1,4 @@
-# Leaderboard
+# Leader_board
 
 > This is To-do-list App using ES6. HTML DOM manipulation is used for dynamically passing data to a single web page.
 
