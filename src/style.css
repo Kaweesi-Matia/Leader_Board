@@ -36,7 +36,7 @@ body {
 
 .refresh {
   justify-self: flex-end;
-  margin-left: 22px;
+  margin-left: 80px;
 }
 
 .item {
@@ -67,7 +67,7 @@ button {
 .scores {
   margin-top: 10px;
   border: 2px solid black;
-  width: 100%;
+  width: 60%;
 }
 
 form {
@@ -92,4 +92,10 @@ form {
 .submit {
   align-self: flex-end;
   width: 45%;
+}
+
+::placeholder {
+  font-weight: 700;
+  padding-left: 10px;
+  font-size: 16px;
 }
