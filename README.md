@@ -1,58 +1,72 @@
-# Leader_board
+# Leaderboard
 
-> This is a Leaderboard game project, where i used Leaderboard API documentation. Data is sent to the server by clicking submit button, and it is retrieved from the server by clicking refresh button.
+> In this repository I have set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, Send and receive data from an API. notably modules.
+I develop a first working version of the app following a wireframe, but without styling - just focus on functionality.
+
+## Website Live Demo Link
+
+- [Leaderboard Score List](https://kaweesi-matia.github.io/Leader_Board/dist/)
 
 ## Built With
 
-- HTML, CSS,Webpack & JS
+- HTML
+- CSS 
+- Javascript ES6
+- Javascript API
 
-## Live Demo
+## Working Module
 
-[Click to view Project]( https://kaweesi-matia.github.io/Leader_Board/)
+- Setup Project Done
+- Hit the API Done
+- Final Touches Done
+
+## Extensions / Plugins
+
+Linters Installed
+-Lighthouse
+-Webhint
+-Stylelint
+-ESLint
+-node_modules checker
+-Webpack
+-Webpack Server
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+- GitHub Repositry URL: https://github.com/Kaweesi-Matia/Leader_Board
+- Clone Above GitHub URL of repositry.
+- CD into the required Directory
+- Install npm Package with the command : npm install
+- Make Sure Installation of Linters, Webpack, and Webpack Server.
+- Start webpack server with the command : npm start
 
 ### Prerequisites
+- Visual Studio
+- Knowldege About HTML / CSS / JAVASCRIPT ES6
+- Webhint
+- Stylelint
+- ESLint
+- node_modules checker
+- Github
+- Webpack
+- Webpack Server
 
-HTML, CSS & JS
-
-### Setup
-
-Download the zip file for repository and unzip it.
-You should have a code editor
-
-### Install
-
-Install Linters and code editor
-
-### Usage
-
-N/A
-
-### Run tests
-
-To run tests you can use the following commands
-For HTML you should run " npx hint . " on your terminal in root directory of project
-For CSS you should run " npx stylelint "**/*.{css,scss}" " on your terminal in root directory of project
-For JavaScript you should run " npx eslint " on your terminal in root directory of project
 
 ### Deployment
+- [Linter](https://github.com/microverseinc/linters-config/tree/master/html-css)
 
-N/A
 
 ## Author
-## KAWEESI MATIA
 
-- GitHub: [@Kaweesi-Matia](https://github.com/@Kaweesi-Matia)
-- Twitter: [@kaweesimatia](https://twitter.com/@kaweesimatia)
-- LinkedIn: [@Kaweesi Matia](https://linkedin.com/in/@KaweesiMatia)
+👤 **Kaweesi Matia**
 
+- GitHub: [@Kaweesi-Matia](https://github.com/Kaweesi-Matia)
+- Twitter: [@kaweesimatia](https://twitter.com/kaweesimatia)
+- LinkedIn: [Kaweesi Matia](https://www.linkedin.com/in/kaweesi-matia/)
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Other Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
@@ -62,8 +76,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse
+- microverseinc
+- Inspiration
+- etc
 
 ## 📝 License
-
-This project is [MIT](./License.md) licensed.
+https://github.com/MudasirSherwani/Leaderboard-Project/blob/main/LICENSE.md
+This project is [MIT](./MIT.md) licensed.
