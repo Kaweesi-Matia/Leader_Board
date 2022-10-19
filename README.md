@@ -1,6 +1,6 @@
 # Leader_board
 
-> This is To-do-list App using ES6. HTML DOM manipulation is used for dynamically passing data to a single web page.
+> This is a Leaderboard game project, where i used Leaderboard API documentation. Data is sent to the server by clicking submit button, and it is retrieved from the server by clicking refresh button.
 
 ## Built With
 
@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-[Click to view Project]( https://github.com/Kaweesi-Matia/To-do-list_APP/tree/add-remove)
+[Click to view Project]( https://kaweesi-matia.github.io/Leader_Board/)
 
 ## Getting Started
 
