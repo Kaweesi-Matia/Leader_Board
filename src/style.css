@@ -13,6 +13,10 @@ body {
   font-size: 48px;
 }
 
+#game {
+  display: none;
+}
+
 .main-container {
   width: 70%;
   height: 400px;
@@ -24,7 +28,7 @@ body {
   text-align: left;
 }
 
-.sub-title {
+.subtitle {
   display: flex;
   font-size: 20px;
   width: 100%;
@@ -47,7 +51,7 @@ body {
   background-color: grey;
 }
 
-.your_name,
+.name,
 .score {
   margin-bottom: 15px;
   height: 25px;
