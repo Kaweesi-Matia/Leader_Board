@@ -81,5 +81,5 @@ Give a ⭐️ if you like this project!
 - etc
 
 ## 📝 License
-https://github.com/MudasirSherwani/Leaderboard-Project/blob/main/LICENSE.md
+https://github.com/Kaweesi-Matia/Leaderboard-Project/blob/main/LICENSE.md
 This project is [MIT](./MIT.md) licensed.
