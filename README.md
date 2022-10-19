@@ -33,12 +33,23 @@ Linters Installed
 
 ## Getting Started
 
-- GitHub Repositry URL: https://github.com/Kaweesi-Matia/Leader_Board
-- Clone Above GitHub URL of repositry.
-- CD into the required Directory
-- Install npm Package with the command : npm install
-- Make Sure Installation of Linters, Webpack, and Webpack Server.
-- Start webpack server with the command : npm start
+-### Setup
+- clone 'https://github.com/Kaweesi-Matia/Leader_Board.git'
+- Setup Linters by running following commands in your terminal:
+
+- npm install --save-dev stylelint@13.x stylelint-scss@3.x - - - stylelint-config-standard@21.x stylelint-csstree-validator@1.x (Install the StyleHint linters)
+
+- npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+
+- npx stylelint "*/.{css,scss}" (checks for the CSS related errors in your project)
+
+- npx stylelint "*/.{css,scss}" --fix (This will fix the linters error, if any)
+
+- npm install --save-dev hint@7.x (Install the WebHint Linters)
+
+- Run npx eslint . on the root of your directory of your project.
+
+- npx hint . (You should see Finishing... on your terminal)
 
 ### Prerequisites
 - Visual Studio
