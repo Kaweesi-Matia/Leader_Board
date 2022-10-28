@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Title</title>
+<script defer src="main.js"></script></head>
+
+<body>
+  <h1 id="leader_board">Leaderboard</h1>
+  <section class="main-container">
+    <div class="display_left">
+      <div class="subtitle">
+        <h2>Recent score</h2>
+        <button type="button" class="refresh">Refresh</button>
+      </div>
+      <div class="scores"></div>
+    </div>
+    <div class="display_right">
+      <div class="subtitle">
+        <h2>Add your score</h2>
+      </div>
+      <form class="add_game">
+        <input type="text" class="name" name="name" placeholder="Your name" />
+        <input type="text" class="score" name="score" placeholder="Your Score" />
+        <button type="submit" class="submit">Submit</button>
+      </form>
+      <form id="game" action="https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/" method="post">
+
+        <label>add game</label>
+        <input type="text" name="name">
+        <button type="submit" id="addgame">add game</button>
+
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>
