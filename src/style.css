@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: whitesmoke;
+}
+
+#leader_board {
+  margin-left: 240px;
+  margin-top: 230px;
+  font-size: 48px;
+}
+
+#game {
+  display: none;
+}
+
+.main-container {
+  width: 70%;
+  height: 400px;
+  margin-left: 250px;
+  padding-top: 5px;
+  padding-right: 20px;
+  margin-top: 3%;
+  display: flex;
+  text-align: left;
+}
+
+.subtitle {
+  display: flex;
+  font-size: 20px;
+  width: 100%;
+}
+
+.refresh {
+  justify-self: flex-end;
+  margin-left: 80px;
+}
+
+.item {
+  width: 100%;
+  font-size: 20px;
+  background-color: #fff;
+}
+
+.item1 {
+  width: 100%;
+  font-size: 20px;
+  background-color: grey;
+}
+
+.name,
+.score {
+  margin-bottom: 15px;
+  height: 25px;
+  width: 200px;
+}
+
+button {
+  border-right: 6px solid black;
+  border-bottom: 6px solid black;
+  padding: 6px 12px;
+}
+
+.scores {
+  margin-top: 10px;
+  border: 2px solid black;
+  width: 60%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 13px;
+}
+
+.display_right,
+.display_left {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px;
+}
+
+.display_left {
+  margin-right: 20px;
+}
+
+.submit {
+  align-self: flex-end;
+  width: 45%;
+}
+
+::placeholder {
+  font-weight: 700;
+  padding-left: 10px;
+  font-size: 16px;
+}
