@@ -5,7 +5,7 @@ I develop a first working version of the app following a wireframe, but without 
 
 ## Website Live Demo Link
 
-- [Leaderboard Score List]( https://kaweesi-matia.github.io/Leader_Board/)
+- [Leaderboard Score List]( https://dazzling-tiramisu-d093d8.netlify.app)
 
 ## Built With
 
