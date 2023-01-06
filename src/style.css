@@ -99,3 +99,38 @@ form {
   padding-left: 10px;
   font-size: 16px;
 }
+
+@media only screen and (max-width: 608px) {
+  .main-container {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    position: relative;
+    right: 200px;
+  }
+
+  .display_right {
+    order: 1;
+    width: 60%;
+  }
+
+  .display_left {
+    width: 100%;
+  }
+
+  .scores {
+    padding: 0;
+    width: 100%;
+  }
+
+  .refresh {
+    width: 120px;
+    height: 35px;
+  }
+
+  #leader_board {
+    margin-left: 160px;
+    margin-top: 230px;
+    font-size: 48px;
+  }
+}
